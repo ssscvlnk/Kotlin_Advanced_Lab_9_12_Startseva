@@ -1,3 +1,5 @@
+package example
+
 interface Movable{
     val model: String
     val number: String
@@ -64,8 +66,8 @@ fun main() {
     val airCraft = AirCraft("Boeing","737")
 //    car.move()
 //    airCraft.move()
-//    travel(car)
-//    travel(airCraft)
+//    example.travel(car)
+//    example.travel(airCraft)
     val artem = WorkingStudent("Артем")
 //    artem.work()
 //    artem.study()
